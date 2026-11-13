@@ -1,0 +1,117 @@
+
+GIT COMMANDS AND EXPLANATIONS
+Assignment: Git and GitHub Workflow
+
+1. mkdir git-workflow-project
+Creates the project directory.
+
+2. cd git-workflow-project
+Enters the project directory.
+
+3. nano index.html
+Creates or edits the index.html file.
+
+4. nano about.html
+Creates or edits the about.html file.
+
+5. ls -l
+Lists files and directory information.
+
+6. cat index.html
+Displays the contents of index.html.
+
+7. cat about.html
+Displays the contents of about.html.
+
+8. git init -b main
+Initializes a local Git repository with main as its initial branch.
+
+9. git status
+Displays the current repository status.
+
+10. git add .
+Stages all eligible files for committing.
+
+11. git commit -m "Initial project setup"
+Creates the initial project commit.
+
+12. git add index.html
+Stages the modified index.html file.
+
+13. git commit -m "Update home page content"
+Records changes to the home page.
+
+14. git log --oneline
+Displays a concise commit history.
+
+15. git branch
+Displays the local branches.
+
+16. git branch feature
+Creates a branch named feature.
+
+17. git switch feature
+Switches to the feature branch.
+
+18. git add about.html
+Stages changes to about.html.
+
+19. git commit -m "Add feature to about page"
+Commits changes on the feature branch.
+
+20. git switch main
+Switches back to the main branch.
+
+21. git merge feature
+Merges the feature branch into main.
+
+22. git log --oneline --graph --all
+Displays commit history and branch structure.
+
+23. nano .gitignore
+Creates or edits the .gitignore file.
+
+24. touch test.log
+Creates a test log file.
+
+25. mkdir temp
+Creates a temporary directory.
+
+26. touch temp/example.txt
+Creates a test file inside the temporary directory.
+
+27. git status --short
+Displays a concise repository status.
+
+28. git add .gitignore
+Stages the .gitignore file.
+
+29. git commit -m "Add gitignore configuration"
+Commits the ignore configuration.
+
+30. git commit -m "Add content for undo demonstration"
+Creates an additional commit for the undo demonstration.
+
+31. git revert HEAD
+Reverses the latest commit while preserving history.
+
+32. git remote -v
+Displays configured remote repository URLs.
+
+33. git remote add origin SSH_URL
+Adds the GitHub repository as a remote.
+
+34. git remote set-url origin SSH_URL
+Changes the remote repository URL.
+
+35. git push -u origin main
+Pushes the main branch to GitHub and sets upstream tracking.
+
+36. git push -u origin feature
+Pushes the feature branch to GitHub and sets upstream tracking.
+
+37. git branch -a
+Displays local and remote branches.
+
+38. git log --oneline -6
+Displays the latest six commits.
